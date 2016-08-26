@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Module file for OPL View Modes
+ */
+
+/**
+ * Implements hook_entity_info_alter().
+ */
+function opl_viewmodes_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['search_result'] = array(
+    'label' => t('Search Result'),
+    'custom settings' => TRUE,
+  );
+}
+

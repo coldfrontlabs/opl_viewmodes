@@ -1,0 +1,6 @@
+name = OPL View Modes
+description = Defines custom view modes for entities
+core = 7.x
+package = OPL Custom
+dependencies[] = entity
+dependencies[] = node
