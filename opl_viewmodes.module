@@ -12,5 +12,9 @@ function opl_viewmodes_entity_info_alter(&$entity_info) {
     'label' => t('Search Result'),
     'custom settings' => TRUE,
   );
+  $entity_info['node']['view modes']['featured_event'] = array(
+    'label' => t('Featured Event'),
+    'custom settings' => TRUE,
+  );
 }
 
